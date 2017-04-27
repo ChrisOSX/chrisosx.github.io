@@ -17,7 +17,6 @@ Name: insanelyi Forum App
 Author: @ChrisOSX
 Sponsor: ChrisOSX <chrisosx.repo@gmail.com>
 Depiction: https://chrisosx.github.io/depictions/index.html?p=com.chris.insanelyi
-Tag: purpose::chris
 Icon: file:///Applications/insanelyi.app/AppIcon-Cydia.png
 
 Package: com.chris.matteterm
@@ -38,5 +37,4 @@ Name: MatteTerm
 Author: @ChrisOSX
 Sponsor: ChrisOSX <chrisosx.repo@gmail.com>
 Depiction: https://chrisosx.github.io/depictions/index.html?p=com.chris.matteterm
-Tag: purpose::chris
 Icon: file:///Applications/MatteTerm.app/MatteIcon.png
