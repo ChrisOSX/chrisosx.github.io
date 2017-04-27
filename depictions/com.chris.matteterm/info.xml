@@ -29,10 +29,4 @@
 	<changelog>
 		<change>Misc code clean up.</change>
 	</changelog>
-	<links>
-		<link>
-			<name>Twitter</name>
-			<url>https://twitter.com/ChrisOSX</url>
-		</link>
-	</links>
 </package>
