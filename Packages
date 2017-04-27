@@ -3,14 +3,14 @@ Section: Site-Specifc Apps
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
 Architecture: iphoneos-arm
 Version: 3.4.1
-Replaces: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.sull.insanelyiappios7, com.sull.insanelyiappios8
+Replaces: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.sull.insanelyiappios7, com.sull.insanelyiappios8, com.sull.insanelyiappios9
 Depends: firmware (>= 8.0)
 Filename: debs//apps/com.chris.insanelyi.deb
 Size: 3657402
 MD5sum: c0a43d240f12c10585df466237aa8253
 SHA1: 2a37bc41925d722cdc9c92c7ba0becef5880daa6
 SHA256: 85f8a29ad400922585b91f948ac2012547d4f259495387b3e4b0968d8ddcf236
-Conflicts: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.sull.insanelyiappios7, com.sull.insanelyiappios8
+Conflicts: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.sull.insanelyiappios7, com.sull.insanelyiappios8, com.sull.insanelyiappios9
 Description: Amazing forum app with iOS 8/9/10 Support!
 Name: insanelyi Forum App
 Author: @ChrisOSX
