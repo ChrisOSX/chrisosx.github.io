@@ -7,7 +7,7 @@ Version: 3.4.1
 Replaces: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.sull.insanelyiappios7, com.sull.insanelyiappios8, com.sull.insanelyiappios9
 Depends: firmware (>= 8.0)
 Filename: debs//apps/com.chris.insanelyi.deb
-Size: 4139982
+Size: 4140008
 MD5sum: bf03fbc81680d5eca49b904a6a760d87
 SHA1: bcbb43ce9c5ac255cd8eea107bfd9bab7a865466
 SHA256: 604a7d560d2019667fccf91b34b50bed8ba92eeb0adea028b84fc3116c41b257
