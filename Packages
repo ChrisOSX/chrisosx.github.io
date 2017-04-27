@@ -1,6 +1,5 @@
 Package: com.chris.insanelyi
-Priority: extra
-Section: iApps
+Section: Site-Specifc Apps
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
 Architecture: iphoneos-arm
 Version: 3.4.1
@@ -20,8 +19,7 @@ Depiction: https://chrisosx.github.io/depictions/index.html?p=com.chris.insanely
 Icon: file:///Applications/insanelyi.app/AppIcon-Cydia.png
 
 Package: com.chris.matteterm
-Priority: extra
-Section: iApps
+Section: Terminal Support
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
 Architecture: iphoneos-arm
 Version: 1.0beta1.4.1
