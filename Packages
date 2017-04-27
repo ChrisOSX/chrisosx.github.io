@@ -4,6 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
 Depends: firmware (>= 8.0), firmware (<< 10.2.1)
 Filename: debs//apps/com.chris.insanelyi.deb
+Size: 3657402
+MD5sum: 426951a0a8a684ad0602aad5ee5a4f94
+SHA1: 2495edc9e0d22d5f1c056899163aded18bb764f6
+SHA256: 5bfd6fca13f9206f124f7aeeb99d191e89b0350695dfa1123070a1eeaecfd793
 Section: Site-Specifc Apps
 Description: Amazing forum app with iOS 8-10 Support!
 Author: ChrisOSX <chrisosx.repo@gmail.com>
@@ -18,6 +22,10 @@ Architecture: iphoneos-arm
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
 Depends: coreutils, firmware (>= 8.0), firmware (<< 10.2.1)
 Filename: debs//apps/com.chris.matteterm.deb
+Size: 1483896
+MD5sum: 98057543fc1295ff1806e8489dfaab0d
+SHA1: edc54c56d9a95b1eb6d41de44710aabbe7d9cb3c
+SHA256: fadac2b3c33cd6b3f8e13be5444b8b9ad2d691278e3e0521a486c8bc3a593315
 Section: Terminal Support
 Description: The best mobile terminal emulator ever!
  Initial code base and project from @CodeHex via White Terminal. Reworked and updated by me @ChrisOSX into MatteTerm for iOS 8 - 10, also the creator of the insanelyi forum application.
