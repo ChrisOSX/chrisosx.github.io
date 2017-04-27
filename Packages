@@ -1,4 +1,5 @@
 Package: com.chris.insanelyi
+Priority: extra
 Section: Site-Specifc Apps
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
 Architecture: iphoneos-arm
@@ -7,9 +8,9 @@ Replaces: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.sull.insanelyiap
 Depends: firmware (>= 8.0)
 Filename: debs//apps/com.chris.insanelyi.deb
 Size: 3657402
-MD5sum: c0a43d240f12c10585df466237aa8253
-SHA1: 2a37bc41925d722cdc9c92c7ba0becef5880daa6
-SHA256: 85f8a29ad400922585b91f948ac2012547d4f259495387b3e4b0968d8ddcf236
+MD5sum: ad63262e4c94d154a5c6fab6f5a5da72
+SHA1: 1421a2ab8eff724b4c8839453fbdc319c68e0ba6
+SHA256: cdf421b04cb25ce690ee6c7a54a8dcb39b3db9008e8d305c5465e8757ccbcc97
 Conflicts: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.sull.insanelyiappios7, com.sull.insanelyiappios8, com.sull.insanelyiappios9
 Description: Amazing forum app with iOS 8/9/10 Support!
 Name: insanelyi Forum App
@@ -19,6 +20,7 @@ Depiction: https://chrisosx.github.io/depictions/index.html?p=com.chris.insanely
 Icon: file:///Applications/insanelyi.app/AppIcon-Cydia.png
 
 Package: com.chris.matteterm
+Priority: extra
 Section: Terminal Support
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
 Architecture: iphoneos-arm
@@ -26,9 +28,9 @@ Version: 1.0beta1.4.1
 Depends: coreutils, firmware (>= 8.0)
 Filename: debs//apps/com.chris.matteterm.deb
 Size: 1483896
-MD5sum: 98057543fc1295ff1806e8489dfaab0d
-SHA1: edc54c56d9a95b1eb6d41de44710aabbe7d9cb3c
-SHA256: fadac2b3c33cd6b3f8e13be5444b8b9ad2d691278e3e0521a486c8bc3a593315
+MD5sum: 1972606c7b9784316ac6c1f3c74de7ba
+SHA1: 5ae976a4e68ec5a47338448734438322b934c438
+SHA256: 218b83c4d4394e4cef2b1017b64ba794f2eb67232ac3de75214908dcf25536c9
 Description: The best mobile terminal emulator ever!
  Initial code base and project from White Terminal by @CodeHex. Reworked and updated into MatteTerm by me, @ChrisOSX, the creator of the insanelyi forum application.
 Name: MatteTerm
