@@ -38,11 +38,11 @@
 	</screenshots>
 	<changelog>
 		<change><![CDATA[
-		Note Pad styling to better resemble the Notes app, and bug fixing.<br/>
-		Added framework to detect when notes were saved.<br/>
-		Status bar bug fixing.<br/>
-		Old code cleanup.<br/>
-		Completed Downloads cell styling to match the Note Pad cell.<br/>
+		- Note Pad styling to better resemble the Notes app, and bug fixing.<br/>
+		- Added framework to detect when notes were saved.<br/>
+		- Status bar bug fixing.<br/>
+		- Old code cleanup.<br/>
+		- Completed Downloads cell styling to match the Note Pad cell.<br/>
 		]]>
 		</change>
 	</changelog>
