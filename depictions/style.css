@@ -28,3 +28,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     margin-left: 5px;
     margin-right: 10px;
 }
+
+#container .screenshots {
+   background: url("/Users/home/Documents/GitHub/chrisosx.github.io/depictions/images/screenshots.png") no-repeat top left;
+   padding: 2px 0 0 25px;
+}
