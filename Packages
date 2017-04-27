@@ -7,7 +7,7 @@ Version: 3.4.1
 Replaces: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.sull.insanelyiappios7, com.sull.insanelyiappios8, com.sull.insanelyiappios9
 Depends: firmware (>= 8.0)
 Filename: debs//apps/com.chris.insanelyi.deb
-Size: 3657402
+Size: 4139982
 MD5sum: ad63262e4c94d154a5c6fab6f5a5da72
 SHA1: 1421a2ab8eff724b4c8839453fbdc319c68e0ba6
 SHA256: cdf421b04cb25ce690ee6c7a54a8dcb39b3db9008e8d305c5465e8757ccbcc97
@@ -27,7 +27,7 @@ Architecture: iphoneos-arm
 Version: 1.0beta1.4.1
 Depends: coreutils, firmware (>= 8.0)
 Filename: debs//apps/com.chris.matteterm.deb
-Size: 1483896
+Size: 1492386
 MD5sum: 1972606c7b9784316ac6c1f3c74de7ba
 SHA1: 5ae976a4e68ec5a47338448734438322b934c438
 SHA256: 218b83c4d4394e4cef2b1017b64ba794f2eb67232ac3de75214908dcf25536c9
