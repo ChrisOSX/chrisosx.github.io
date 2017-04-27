@@ -2,7 +2,7 @@ Package: com.chris.insanelyi
 Version: 3.4.1
 Architecture: iphoneos-arm
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
-Depends: firmware (>= 8.0), firmware (<< 10.0)
+Depends: firmware (>= 8.0), firmware (<< 10.2.1)
 Filename: debs//apps/com.chris.insanelyi.deb
 Section: Site-Specifc Apps
 Description: Amazing forum app with iOS 8-10 Support!
@@ -16,7 +16,7 @@ Package: com.chris.matteterm
 Version: 1.0beta1.4.1
 Architecture: iphoneos-arm
 Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
-Depends: coreutils, firmware (>= 8.0)
+Depends: coreutils, firmware (>= 8.0), firmware (<< 10.2.1)
 Filename: debs//apps/com.chris.matteterm.deb
 Section: Terminal Support
 Description: The best mobile terminal emulator ever!
