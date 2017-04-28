@@ -76,30 +76,6 @@
 					);
 				}
 			}
-		var contentBlocks = 	{
-        "#appCover"	: 
-			{"type":"custom"  
-				,"source" :"package>screenshots>screenshot"
-				,"render" : function(element,source){
-				console.log($(source).size());
-					if ($(source).size()==0) {
-						$(element).append( $("<div class='alert alert-danger'>The aren't any screenshots for this package</div>") ); 
-						return;
-					}
-					$.each(source, function(index,data) {
-						var th = $("<div class='thumbnail'>");
-						th.append($("<p>")
-							.text($(data).find('description').text())
-						)
-						th.append($("<img>")
-							.attr("src",bundleid+'/screenshots/'+$(data).find('appcover.png').text())
-						)
-						$(element).append(th);
-					});
-					
-				}
-			}
-	}
 		,"#versionBadge" : {"type":"text","source":"package>version"}
         ,"#changesList"	:
 			{"type":"list"
@@ -174,6 +150,20 @@
         }); //ajax
 
     }); // ready
+    
+
+
+
+var img = document.getElementById('container').firstChild;
+img.onload = function() {
+    if(img.height > img.width) {
+        img.height = '100%';
+        img.width = 'auto';
+    }
+};
+
+}());
+</script>
   </script>
 </head>
 <body>
@@ -191,13 +181,10 @@
 			<li id="screenshotsLink" />
 		</ul>
 	</div>
-
-<div id="packageInformation">
-	<div class="container">
-		<ul id="appCover" class="list-group">
-		</ul>
+	
+	<div id="container">
+    	<img src="appcover.png" alt="" />
 	</div>
-</div>
 
 	<div class="container">
 		<h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
