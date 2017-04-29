@@ -153,50 +153,96 @@
   </script>
 </head>
 <body>
+<br />
 
-<body class="pinstripe">
-<panel>	
+<div id="packageInformation">
 
-<!--ad-->
-	<script type="text/rocketscript" data-rocketoptimized="true">/* CloudFlare analytics upgrade */
-</script><!--end ad-->
-
-<!--content-->
-    <fieldset>
-    <div class="container">
+	<div class="container">
 	  <div id="compatibilityCheck" class="alert" align="center"></div>
 	</div>
-	
-	<a href="screenshotsList" target="_new">
-	<img class="icon" src="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/images/screenshots.png?raw=true"><div>
-	<label>Screenshots</label></div></a>
-	<img src="ss/0.jpg" width="100%">
-    <div><p>insanelyi Forum App ~ Compatible with iOS 8 ~ 10.</p>
-    <p>This is a specifically designed app for our forum and its members at insanelyi. Started off as a small project, but through tinkering here and there, it has become something pretty amazing. I hope you enjoy it!</p>
-    </div>
-	</fieldset>
 
-    <fieldset>
-	<a href="changelogLink" target="_new">
-	<img class="icon" src="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/images/changelog.png?raw=true"><div>
-	<label>Recent Changes</label></div></a>
-	
-	<a href="https://www.twitter.com/@ChrisOSX" target="_new">
-	<img class="icon" src="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/images/twitter.png?raw=true"><div>
-	<label>Follow on Twitter</label></div></a>
-	</fieldset>
-		
-<!--info-->
-	<fieldset>
-		<ul class="list-group" id="repoFooterLinks">
+	<div class="container">
+		<h5>DESCRIPTION</h5>
+		<ul id="descriptionList" class="list-group">
+			<li id="screenshotsLink" />
 		</ul>
-	</fieldset>
+	</div>
+
+	<div class="container">
+		<h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
+		<ul id="changesList" class="list-group">
+			<li id="changelogLink" />
+		</ul>
+	</div>
+	<div class="container" id="dependenciesContainer">
+		<h5>DEPENDENCIES</h5>
+		<ul id="dependencyList" class="list-group">
+		</ul>
+	</div>
+
+</div>
+<div id="packageError" style="display:none">
+	<div class="container">
+	  <div class="alert alert-danger">
+		<strong>Oh snap!</strong> The package you are tying to view is not hosted on this repository.
+	  </div>
+	</div>
 </div>
 
-<!--info-->
+<script type="text/javascript">
+   function setAnchorTargets() {
+     // if on Cydia, set link targets to _blank
+     if (navigator.userAgent.search(/Cydia/) != -1) {
+       $("a").each(function() {
+         $(this).attr("target","_blank");
+       });
+     }
+   }
 
-</panel>
+    var repoContents =  {
+        "#repoFooterLinks" : 
+            {"type":"custom"
+                ,"source":"repo>footerlinks>link"
+                ,"render":function(element,source) {
+                    $.each(source, function(index,data) {
+                        var a = $("<a class='link-item list-group-item'>");
+                        a.attr("href",$(data).find('url').text());
+                        if ($(data).find('iconclass')) {
+                            var i =  $("<span>")
+                            i.attr("class",$(data).find('iconclass').text());
+                            console.log(i);
+                            $(a).append(i);
+                        } 
+                        $(a).append($(data).find('name').text());
+                        $(element).append(a);
+                    }); //each
+                } //render
+            }
+    }
+    $( document ).ready(function() {
+        $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
+            success : function(xml){
+				      data_loader_engine(repoContents,xml);
+              setAnchorTargets();
+			      },
+            error: function() {
+              $("#contactInfo").hide();
+              setAnchorTargets();
+            }
+        }); //ajax
 
+
+    }); // ready
+
+</script>
+
+<div id="contactInfo">
+	<div class="container">
+		<h5>CONTACT</h5>
+		<ul class="list-group" id="repoFooterLinks">
+		</ul>
+	</div>
+</div>
 
 
 </body>
