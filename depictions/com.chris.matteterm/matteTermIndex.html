@@ -27,7 +27,8 @@
 </fieldset>
 
 <block id="version"></block>
-    
+
+<label>Info</label>
 <fieldset>
 <div>
 <p>The best mobile terminal emulator ever!
@@ -36,7 +37,15 @@
 </div>
 </fieldset>
 
+<label>Changelog</label>
 <fieldset>
+<div>
+<p><h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
+<div>
+<p>- Misc code clean up.</p>
+</div>
+
+</div>
 <a href="./changelog.html">
 <img class="icon" src="../resources/images/changelog.png" width="58" height="58">
 <div>
@@ -47,6 +56,10 @@
 </div>
 </div>
 </a>
+</fieldset>
+
+<label>Other</label>
+<fieldset>
 <a href="/depictions/resources/contact.html">
 <img class="icon" src="../resources/images/contact.png" width="58" height="58">
 <div>
@@ -57,9 +70,15 @@
 </div>
 </div>
 </a>
-</fieldset>
 
 </panel>
 <script type="text/javascript" src="../resources/js/iosver.js"></script>
+
+<script type="text/javascript">  
+	bundleid = $.QueryString['p'];	
+    var contentBlocks = 	{
+		,"#versionBadge" : {"type":"text","source":"package>version"}
+	}
+</script>
 </body>
 </html>
