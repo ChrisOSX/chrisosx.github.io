@@ -1,70 +1,83 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Changelog</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
- 
-  <script type="text/javascript" src="js/jquery.querystring.js"></script>
-  <script type="text/javascript" src="js/data-loader-engine.js"></script>
-  <script type="text/javascript" src="js/ios_version_check.js"></script>
-  <style>
-	@media (max-width: 767px) {
-		body{background:#efeff4!important;margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
-	}  
-  </style>
-  <script type="text/javascript">
-  
-	bundleid = $.QueryString['p'];	
-
-    var contentBlocks = 	{
-        "#changeLogList" : 
-			{"type":"articles"  
-				,"source"			:"changelog"
-				,"titleSource" 		:"version"
-				,"paragraphSource"	:"change"
-				,"titleElement"	    : "<h5>"
-				,"paragraphContainer": "<ul class='list-group'>"
-				,"paragraphElement"	: "<li class='list-group-item'>"
-
-			}
-	}
-    $( document ).ready(function() {
-        $.ajax({
-            type    : "GET",
-            dataType: "xml",
-            url     : (bundleid+"/changelog.xml"),
-            success : function(xml){
-            	data_loader_engine(contentBlocks,xml)
-            },
-			cache   : false,
-            error: function() {
-                $("#packageError").show();
-				$("#packageInformation").hide();
-            }
-        }); //ajax
-		
-    }); // ready
-  </script>
+<meta charset="utf-8">
+<title>Changelog</title>
+<base target="_top">
+<link rel="stylesheet" type="text/css" href="../resources/css/style.css"/>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript" src="../resources/js/thankssaurik.js"></script>
 </head>
-<body>
-<br />
 
-<div id="packageInformation">
-	<div class="container" id="changeLogList">
-	</div>
-</div>
-<div id="packageError" style="display:none">
-	<div class="container">
-	  <div class="alert alert-danger">
-		<strong>Oh snap!</strong> The package you are tying to view is not hosted on this repository. 
-	  </div>
-	</div>
-</div>
+<body class="pinstripe">
+<panel>
 
+<block>
+<p>MatteTerm Changelog</p>
+</block>
+
+<label>Version 0.1.4 (1/9/16)</label>
+<fieldset>
+<div>
+<p>New Icons, <br></br>
+New Preferneces</p>
+</div>
+</fieldset>
+
+<label>1.4.1</label>
+<fieldset>
+<div>
+<p>Misc code clean up.</p>
+</div>
+</fieldset>
+
+<label>1.4</label>
+<fieldset>
+<div>
+<p>Removed the Navbar and status bar when rotating on 4 inch or smaller devices (limited screen space).</br>
+Misc code clean up and bug fixes.</p>
+</div>
+</fieldset>
+
+<label>1.3</label>
+<fieldset>
+<div>
+<p>Changed app display name.</br>
+Changed URL keyboard to Email. With both keyboard switches on, it removes the emoji key.</br>
+Fixed the keyboard display in the shortcut edit view controller.</br>
+Hopefully fixed the toolbar to comply with rotating on smaller devices.</p>
+</div>
+</fieldset>
+
+<label>1.2</label>
+<fieldset>
+<div>
+<p>Subtle UI changes.</br>
+Added Matte Mode which changes the Navbar and tool bar color (Main view only).</br>
+Added Matte Keyboard. Light or dark. Simple.</br>
+Bug fixes.</p>
+</div>
+</fieldset>
+
+<label>1.1</label>
+<fieldset>
+<div>
+<p>Fixed the issue with the menu not vanishing when tapping a shortcut.</br>
+Adjusted the toolbars in main view so theres no jump when switching into other keys.</br>
+Changed some main view toolbar icons and added icons to the preferences view.</br>
+Managed to speed up the toolbar button animations. (They were getting blocked by the tap and double tap gestures).</br>
+Code cleanup.</p>
+</div>
+</fieldset>
+
+<label>1.0</label>
+<fieldset>
+<div>
+<p>Initial Release</p>
+</div>
+</fieldset>
+
+</panel>
 </body>
 </html>
