@@ -841,7 +841,7 @@ div.cy-table>label {
 fieldset>.left,
 fieldset>.right {
     float: left;
-    width: 50%
+    width: 100%
 }
 fieldset.half {
     float: left
