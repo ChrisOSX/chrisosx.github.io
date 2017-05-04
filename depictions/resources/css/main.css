@@ -85,7 +85,6 @@
 	body {
 		height: 100%;
 		background-color: #141414;
-		background-image: url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/bg.jpg?raw=true");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: bottom center;
@@ -103,8 +102,7 @@
 			opacity: 0;
 			z-index: 1;
 			height: 100%;
-			background-color: #ffffff;
-			background-image: url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/bg.jpg?raw=true");
+			background-color: #141414;
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: bottom center;
