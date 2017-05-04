@@ -87,10 +87,13 @@
 		background-image:url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/bg.jpg?raw=true");
 		max-width: 100%;
     	height: auto;
-		background-size: cover;
-  		background-position: center;
+		background-size: cover, cover,				cover;
+		background-repeat: no-repeat,			no-repeat,			no-repeat;
+  		background-position: top left,		center center,		bottom center;
+		background-attachment: fixed,			fixed,				fixed;
   		background-repeat: no-repeat;
 	}
+	
 
 		body:after {
 			content: '';
