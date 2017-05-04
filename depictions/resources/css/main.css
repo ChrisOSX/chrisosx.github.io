@@ -85,7 +85,6 @@
 	body {
 		background-color: #2B2B2B;
 		background-image:url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/bg.jpg?raw=true");
-		background-repeat: repeat,			no-repeat,			no-repeat;
 		max-width: 100%;
     	height: auto;
     	width: auto\9; /* ie8 */
