@@ -88,11 +88,9 @@
 		max-width: 100%;
     	height: auto;
     	width: auto\9; /* ie8 */
+		background-position: top left,		center center,		bottom center;
+		background-attachment: fixed,			fixed,				fixed;
 	}
-
-		body.is-loading:after {
-			opacity: 1;
-		}
 
 /* Type */
 
