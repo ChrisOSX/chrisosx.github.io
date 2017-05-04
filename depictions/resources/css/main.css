@@ -106,7 +106,7 @@
 			background-image: url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/bg.jpg?raw=true");
 			background-repeat: no-repeat;
 			background-size: cover;
-			background-position: center center;
+			background-position: bottom center;
 			-moz-transition: opacity 1.75s ease-out;
 			-webkit-transition: opacity 1.75s ease-out;
 			-ms-transition: opacity 1.75s ease-out;
