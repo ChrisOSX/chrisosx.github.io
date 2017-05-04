@@ -122,7 +122,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #414f57;
+		color: #afafaf;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
@@ -169,7 +169,7 @@
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #afafaf;
 	}
 
 	em, i {
@@ -181,7 +181,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #afafaf;
 		line-height: 1.5;
 		margin: 0 0 0.75em 0;
 	}
