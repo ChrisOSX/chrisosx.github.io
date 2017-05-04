@@ -444,6 +444,15 @@
 
 /* Icon */
 
+	.head {
+		width:100%;
+	}
+
+	.logo {
+		float:left;
+        padding:10px;
+        }
+        
 	.icon {
 		text-decoration: none;
 		position: relative;
