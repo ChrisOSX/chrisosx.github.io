@@ -121,20 +121,21 @@ dialog>toolbar>a.forward-button {
 	float:right
 }
 panel>block {
-	background-color:transparent;
-	//background-color:#ffffff;
+	display: block;
+    background-color: rgba(204, 204, 204, 0.5);
 	border-bottom:1px solid #999999;
 	border-top:1px solid #999999;
 	border-left:1px dotted #999999;
 	border-right:1px dotted #999999;
-	-moz-border-radius:9px;
-	-webkit-border-radius:9px;
-	//border:1px solid #999999;
 	display:block;
 	font-size:16px;
-	margin:9px;
+	margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: auto;
+    margin-right: auto;
 	padding:0 10px
 }
+
 panel>fieldset>div>hr,panel>block>hr {
 	border-top:1px dashed #999999
 }
