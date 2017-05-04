@@ -83,7 +83,8 @@
 	}
 
 	body {
-		height: 100%;
+		height: auto;
+		width: auto;
 		background-color: #2B2B2B;
 		background-image:url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/bg.jpg?raw=true");
 	}
