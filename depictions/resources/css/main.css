@@ -85,12 +85,11 @@
 	body {
 		background-color: #2B2B2B;
 		background-image:url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/bg.jpg?raw=true");
-		background-repeat: no-repeat;
 		max-width: 100%;
     	height: auto;
-    	width: auto\9; /* ie8 */
-		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
+		background-size: cover;
+  		background-position: center;
+  		background-repeat: no-repeat;
 	}
 
 /* Type */
