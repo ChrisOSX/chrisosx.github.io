@@ -96,14 +96,12 @@
 			position: fixed;
 			top: 0;
 			left: 0;
-			width: 100%;
 			height: inherit;
 			opacity: 0;
 			z-index: 1;
-			background-color: #2B2B2B;
-			background-repeat: repeat,			no-repeat;
-			background-size: 100% 100%, cover;
-			background-position: top left,		center center;
+			max-width: 100%;
+    		height: auto;
+    		width: auto\9; /* ie8 */
 			-moz-transition: opacity 1.75s ease-out;
 			-webkit-transition: opacity 1.75s ease-out;
 			-ms-transition: opacity 1.75s ease-out;
