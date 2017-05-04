@@ -445,14 +445,16 @@
 /* Icon */
 
 	.head {
-		width:100%;
-	}
+  		width:100%;
+  		text-align: center;
+ 	}
 
 	.logo {
-		float:left;
-        padding:20px;
-        }
-        
+  		padding:20px;
+  		text-align: left;
+  		display: inline-block;
+ 	}
+ 	   
 	.icon {
 		text-decoration: none;
 		position: relative;
