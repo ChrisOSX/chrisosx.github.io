@@ -611,6 +611,48 @@
 
 /* Button */
 
+.ipsButton_fullWidth {
+    display: block;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ipsApp .ipsButton_verySmall {
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0 15px;
+}
+.ipsApp .ipsButton_normal {
+    background: #333333;
+    color: #b5b5b5;
+}
+.ipsApp .ipsButton {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.1);
+    -webkit-transition: 0.1s all linear;
+    -moz-transition: 0.1s all linear;
+    -ms-transition: 0.1s all linear;
+    -o-transition: 0.1s all linear;
+    transition: 0.1s all linear;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
