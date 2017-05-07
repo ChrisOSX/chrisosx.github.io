@@ -451,12 +451,12 @@ fieldset>textarea,fieldset>div>input:not([type="checkbox"]),fieldset>div>select,
 }
 fieldset>a[href]:not([type="ad"]),fieldset>div>select,fieldset>div>div>select {
 	background-repeat:no-repeat;
-	background-image:url("../resources/images/arrow.png");
+	background-image:url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/arrow.png?raw=true");
 	background-position:96.5%
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
 	fieldset>a[href]:not([type="ad"]),fieldset>div>select,fieldset>div>div>select {
-		background-image:url("../resources/images/arrow.png");
+		background-image:url("https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/arrow.png?raw=true");
 		background-size:10px 13px
 	}
 }
