@@ -146,7 +146,11 @@ panel>block {
 
 
 
-
+alert{
+	margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+}
 
 
 panel>fieldset>div>hr,panel>block>hr {
