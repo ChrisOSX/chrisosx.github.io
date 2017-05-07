@@ -138,9 +138,10 @@ panel>block {
 	font-size:16px;
 	margin-top: 9px;
     margin-bottom: 9px;
-    margin-left: auto;
+    margin-left: -210px;
     margin-right: auto;
-	padding:0 10px
+	padding:0 10px	
+	width: 230.5%;
 }
 
 
