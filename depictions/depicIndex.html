@@ -55,7 +55,7 @@
 			}
 		,"#appCoverLink"	: 
 			{"type":"custom"  
-				,"source" :"package"
+				,"source" :"package>screenshots>screenshot"
 				,"render" : function(element,source){
 				console.log($(source).size());
 					if ($(source).size()==0) {
@@ -64,11 +64,8 @@
 					}
 					$.each(source, function(index,data) {
 						var th = $("<div class='thumbnail'>");
-						th.append($("<p>")
-							.text($(data).find('description').text())
-						)
 						th.append($("<img>")
-							.attr("src",bundleid+'/screenshots/'+$(data).find('image').text())
+							.attr("src",bundleid+'/screenshots/'+$(data).find('appCover').text())
 						)
 						$(element).append(th);
 					});
