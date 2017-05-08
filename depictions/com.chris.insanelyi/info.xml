@@ -14,9 +14,7 @@
 		<description>Amazing forum app with iOS 8-10 Support!</description>
 	</descriptionlist>
 	<screenshots>
-		<screenshot>
-			<appCover>appcover.png</appCover>
-		</screenshot>			
+		<appCover>appcover.png</appCover>
 	</screenshots>
 	<screenshots>
 		<screenshot>
