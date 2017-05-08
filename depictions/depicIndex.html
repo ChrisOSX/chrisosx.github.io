@@ -53,18 +53,7 @@
 					if(res==0) {$(element).hide()}
 				}
 			}
-		,"#appCoverLink"	:
-			{"type":"custom"
-				,"source" :"package"
-				,"render":function(element, source){
-					$("#appCoverLink").remove();
-					if ($(source).size() == 0) {
-						return
-					}
-				}
-			}
-		
-		"#appCoverLink"	: 
+		,"#appCoverLink"	: 
 			{"type":"custom"  
 				,"source" :"package"
 				,"render" : function(element,source){
