@@ -127,6 +127,19 @@ dialog>toolbar>a.forward-button {
 
 
 
+
+
+
+versionStyle{
+	margin: 0 auto;
+	margin-top: 9px;
+    margin-bottom: 9px;
+    width: 100%;  
+    text-align: center;
+}
+
+
+
 panel>block {
 	display: block;
     background-color: rgba(204, 204, 204, 0.5);
@@ -142,6 +155,12 @@ panel>block {
     margin-right: auto;
 	padding:0 10px;	
 }
+
+
+
+
+
+
 
 
 
