@@ -9,8 +9,8 @@ function iOSversion() {
 }
 ver = iOSversion();
 if (ver[0] >= 8) {
-	document.getElementById('version').innerHTML='<p><strong>✓</strong> Your device is supported.</p>';
+	document.getElementById('version').innerHTML='<p class="alert alert-success"><strong>✓</strong> Your device is supported.</p>';
 }
 else {
-	document.getElementById('version').innerHTML='<p><strong>x</strong> Your device is not supported.</p>';
+	document.getElementById('version').innerHTML='<p class="alert alert-error"><strong>✓</strong> Your device is supported.</p>><strong>x</strong> Your device is not supported.</p>';
 }
