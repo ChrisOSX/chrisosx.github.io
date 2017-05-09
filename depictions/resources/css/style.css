@@ -132,8 +132,8 @@ dialog>toolbar>a.forward-button {
 
 .versionStyle{
 	margin: 0 auto;
-	margin-top: 9px;
-    margin-bottom: 9px;
+	padding-top: 9px;
+    padding-bottom: 9px;
     width: 100%;  
     text-align: center;
     background-color: yellow;
