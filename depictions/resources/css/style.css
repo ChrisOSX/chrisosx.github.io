@@ -165,9 +165,17 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   padding: 0px 2px 0px 2px;
 }
 
+.compatibility {
+    border-color: rgba(0, 0, 0, 0.18);
+    margin-bottom: 8px;
+    color: #2d82ef;
+    text-align: center;
+    font-size: 1.4em;
+}
 
-
-
+.medium {
+    font-size: 1.4em;
+}
 
 
 
