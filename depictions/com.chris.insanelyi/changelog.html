@@ -34,9 +34,312 @@
 	<li>Status bar bug fixing.</li>
 	<li>Old code cleanup.</li>
 	<li>Completed Downloads cell styling to match the Note Pad cell.</li>
+</br>
+
+
+<strong>3.4.1</strong>
+	<li>Note Pad styling to better resemble the Notes app, and bug fixing.</li>
+	<li>Added framework to detect when notes were saved.</li>
+	<li>Status bar bug fixing.</li>
+	<li>Old code cleanup.</li>
+	<li>Completed Downloads cell styling to match the Note Pad cell.</li>
+</br>
+
+<strong>3.4</strong>
+	<li>Added Submit to the left menu.</li>
+	<li>Fixed some icons.</li>
+	<li>Added a simple Note Pad in the left menu.</li>
+	<li>Misc bug fixes.</li>
+</br>
+
+<strong>3.3.9-6</strong>
+	<li>Fixed toolbar vanishing when rotating.</li>
+	<li>Added Pokes and icon to side menu.</li>
+	<li>Switched active and completed tabs in "My Files".</li>
+	<li>Fixed app re-directs when installing provisioning profiles/certificates.</li>
+	<li>Fixed toolbar changing colors with dark keyboard toggle.</li>
+	<li>Fixed buttons in toolbar not changing color.</li>
+	<li>Removed button backgrounds in toolbar.</li>
+	<li>Enlarged the toolbar buttons for easier navigation.</li>
+	<li>Added button sounds to Menu and Babble buttons. (the rest really don't need them IMO).</li>
+	<li>Recoded the internet connection detection.</li>
+	<li>Fixed Toast position to be above toolbar.</li>
+	<li>Once Babble is loaded, it will stay loaded, no matter what view you choose in the left menu.</li>
+</br>
+
+<strong>3.3.9-5</strong>
+	<li>Re-enabled the internet connection. (WIP as I'm trying to distinguish between internet and host, without double pop-ups).</li>
+	<li>Toolbar design like MatteTerm. </li>
+	<li>Dark Keyboard switch will change toolbar color (WIP). (Working on instant change, if you tap Home or whatever it will change colors).</li>
+	<li>Removed Babble view on the right to a toolbar button.</li>
+	<li>Disabled drag to hide keyboard to a hide keyboard button. Better for navigation.</li>
+	<li>Added switch to toolbar to load navigation keys.</li>
+	<li>Added an "About" page, similar to MatteTerm.</li>
+	<li>Fixed Photo uploading and saving hopefully.</li>
+	<li>More internal code re-working.</li>
+	<li>Internal bug fixes using newer Xcode.</li>
+</br>
+
+<strong>3.3.9-4</strong>
+	<li>More UI Changes to go along with the new mobile skin update.</li>
+	<li>Added a few more left nav drawer items.</li>
+	<li>Disabled the "No internet connection" for now. Until the forum is fully functional. (False positives were happening).</li>
+	<li>Reworked the downloader and image handler to find links and files easier. (hopefully).</li>
+</br>
+
+<strong>3.3.9-3</strong>
+	<li>Some more subtle UI changes.</li>
+	<li>A lot of internal code work and re-writes.</li>
+</br>
+
+<strong>3.3.9-2</strong>
+	<li>Adjusted the scrolling to act like the Chrome app.</li>
+	<li>Fixed the edit displaying/not displaying issue in Downloads.</li>
+	<li>Fixed the Cell title in Downloads and Active Downloads so it won't get cut off. (Shrinks it in the middle like iFile does).</li>
+	<li>Managed to remove all Xcode errors, issues, memory leaks etc.</li>
+	<li>Changed the left drawer drawer back to using the Parallax animation. Seems to handle/animate better for iPads instead of the swinging drawer.</li>
+	<li>Some UI changes in the left drawer, cleaner look in my opinion.</li>
+	<li>Animation / styling changes with the alert pop-up.</li>
+</br>
+
+<strong>3.3.9-1</strong>
+	<li>Fixed the pull to refresh getting stuck when enabling/disabling other toggles.</li>
+	<li>Re-worked the Downloads view. Integrated a "Active Downloads" tab.</li>
+	<li>While in Downloads. Long press in edit mode to select all files.</li>
+	<li>Fixed the Downloader not showing multiple downloads.</li>
+	<li>Fixed the prevention of overwriting files with the same name.</li>
+	<li>Some UI changes and misc code clean up.</li>
+</br>
+
+<strong>3.3.9</strong>
+	<li>Reworked how the status bar color changes in views, hopefully fixing a few appearance issue.</li>
+	<li>Disabled NSLog on release build, should help in caching and speed.</li>
+	<li>Consolidated two view controllers to reduce double code.</li>
+	<li>Reworked how the loading screen acts and presented at launch in the main view.</li>
+	<li>Replaced Change Log with Downloads and moved it into the Settings page (bottom).</li>
+	<li>Changed how the Setting and Download views are presented.</li>
+	<li>Fixed the Pull to Refresh action after changing the Settings presentation. (Still does not apply to the Shoutbox view as that is not meant to navigate around).</li>
+	<li>Added the ability to extract zip files. (For the debs compressed when uploaded to the forum. Must have unzip installed from Cydia).</li>
+	<li>Added a basic progress bar to track webview loads.</li>
+	<li>A lot of UI changes, refreshing and fixing overlooked things.</li>
+</br>
+
+<strong>3.3.8-3</strong>
+	<li>Fixed a bug where you couldn't navigate to Cydia by tapping a package in the Repo Updates section.</li>
+	<li>Fixed the keyboard on the loaded view where it would auto hide while typing and rotating.</li>
+	<li>Fixed the keyboard compatibility for the SwipeSelection tweak. May have fixed it for others, no idea yet. </li>
+	<li>Fixed the shoutbox view not being able to swipe back for navigation.</li>
+	<li>Fixed the toolbar actions in both views from responding incorrectly.</li>
+	<li>Reworked the Download Manager for better function in some cases.</li>
+	<li>More code cleanup.</li>
+</br>
+
+<strong>3.3.8-2</strong>
+	<li>Hopefully fixed the Music stopping when launching app bug.</li>
+	<li>Enabled ARC (Automatic Reference Counting) for all views except for the Downloader. Hopefully it helps with better memory management and random crashes.</li>
+</br>
+
+<strong>3.3.8-1</strong>
+	<li>Added sounds to selecting left menu items, items in My Downloads and pull to refresh.</li>
+	<li>Added switch to turn sounds off in Settings.</li>
+</br>
+
+<strong>3.3.8</strong>
+	<li>Redid the way the launch screen is shown. Improved function while reducing the size of the app.</li>
+	<li>Fixed the user interaction from becoming unresponsive in certain cases.</li>
+	<li>Strictly iOS8 and 9 now due to migrating from UIWebview to WKWebView.</li>
+	<li>Managed to re-do and re-code the dark keyboard to work with the new WKWebView.</li>
+	<li>Fixed the broken Clearing Cookies button. WKWebView does things different. Had to do a rewrite of most things. (Still might be broken on iOS 8, need feedback. Works on both iOS 8/9 simulators though).</li>
+	<li>Slightly improved the download manager. Is able to find certain downloads better. (Still want to improve on this).</li>
+	<li>New image viewer, similar to the one Tweetbot uses. Flick or single tap image to dismiss. Long press image to bring up action sheet for sharing or saving to insanelyi album. When rotating, the background image will not rotate, as it's a snapshot of the previous view. This is NOT a bug, this is it's normal function.</li>
+	<li>A lot of code clean up/removal.</li>
+</br>
+
+<strong>3.3.7-2</strong>
+	<li>Trying out some other memory management in Xcode. Crashes may occur, but aren't foreseen.</li>
+	<li>Killed some Leaking bugs and other things in Xcode.</li>
+	<li>Disabled user interaction until view loads. See if this helps with some issues users were having.</li>
+	<li>Some dead code removal.</li>
+</br>
+
+<strong>3.3.7-1</strong>
+	<li>Fixed the broken search function caused by attempting better keyboard dismissal.</li>
+	<li>Fixed some Xcode bugs that may build the app better for more smoothness.</li>
+	<li>Code clean up/removal.</li>
+</br>
+
+<strong>3.3.7</strong>
+	<li>Removed the "Done" bar on the keyboard again.</li>
+	<li>Re-enabled the Dark keyboard toggle. Should work for iOS 9 and below now!</li>
+	<li>Picker view is once again colored (Like in account settings, picking the time zone etc..)</li>
+	<li>Added a switch in settings to disable the swipe to shoutbox view to the right. It also will not load the page if it's hidden, saving resources. If you re-enable while in the app, navigate to the shoutbox view and pull to refresh to load the view.</li>
+	<li>Hid some sections in the shoutbox view. You may see them flicker when refreshing, this is normal as I'm reading the skin code and manually removing it. Just need some skin adjustments to make the shoutbox stretch the full length of the device.</li>
+	<li>Added a switch to use 2 finger navigation. Some tweaks were conflicting with the edge pan gesture. Added bonus in shoutbox view, you can use the forward nav gesture. Obviously won't work in normal nav mode.</li>
+	<li>Disabled the shadow from the right edge in home view when swiping to the shoutbox view.</li>
+	<li>Prevented the accidental link navigation when keyboard is present.</li>
+</br>
+
+<strong>3.3.6</strong>
+	<li>Initial iOS 9 support.</li>
+	<li>Had to disable the dark keyboard for the time being. Something broken in iOS 9.</li>
+	<li>Bug Fix: Hopefully fixed the problematic dead links and blank images users have reported (iOS 9's fault).</li>
+	<li>Cleanup/removal of dead code.</li>
+</br>
+
+<strong>3.3.5</strong>
+	<li>Fixed pull to refresh bug in Shoutbox view.</li>
+	<li>Added icons to left drawer menu.</li>
+	<li>Added menu icon to My downloads, Settings and Change Log views.</li>
+	<li>Added toolbar at bottom of menu. Settings and Change log more easily accessible.</li>
+	<li>Hopefully fixed some crashing issues.</li>
+	<li>Hopefully shortened the white flash for the keyboard appearing. Not fully gone as wanting but better in my opinion.</li>
+	<li>Code cleanup/removal.</li>
+</br>
+
+<strong>3.3.4</strong>
+	<li>Fixed/adjusted code for video rotation. Had weird flicker of view behind video when rotating.</li>
+	<li>Removed "Done" bar from keyboard. Made it so when you start to scroll the keyboard hides. iPad still has the "Drop Keyboard Button", also will NOT work if keyboard is undocked or split..</li>
+	<li>Removed animations from some views. They were conflicting with layouts and coding processes. Quicker response in my opinion.</li>
+	<li>Fixed the Toolbar tap Show/Hide in main view (Would only appear once).</li>
+	<li>Fixed the Image viewer. Scales image to it's size to fit in screen, with auto scale on rotation.</li>
+	<li>Fixed the Share options in Image viewer. Some wasn't sending the link and or image. (some apps still won't support full share abilities).</li>
+	<li>Added HUD (Heads up Display) for loading image, share image (searches for apps) and for a few other things I can't remember.</li>
+	<li>Added the full Change Log from the forum post to here.</li>
+	<li>Colorized the picker view, i.e like in your Account Settings, selecting Birthday etc...</li>
+</br>
+
+<strong>3.3.3</strong>
+	<li>Removed action sheets to only allow alert views...Quicker response.</li>
+	<li>Fixed toggle for dark keyboard.</li>
+	<li>Fixed picker view (forum polls etc), to follow the light/dark scheme of the keyboard.</li>
+	<li>Fixed rotation toggle. Now allows rotation for videos in portrait mode. Most importantly, when hitting done, returns to portrait mode.</li>
+	<li>Fixed video playback, while fixing toggle, I broke videos, seems fixed now.</li>
+	<li>My downloads document share fix. Wasn't sending file before. (Some files and apps just simply won't be supported).</li>
+	<li>Image view fix (sort of). Inputs pic in activities that support picture sending (Not everything does).</li>
+	<li>Tap view in image view for full screen.</li>
+	<li>Double tap w/2 fingers in Main view or Home view (everything but the launch view runs in this) for a tool bar containing nav buttons along with a share button. Technically a work around for pages that can't swipe back.
+	<li>Fixed "No Internet Connection" message. Was cutting itself off.</li>
+	<li>Adjusted the Pull to Refresh. Was unable to fire when in landscape view on smaller devices.</li>
+	<li>Fixed loading screens (hopefully) for all devices. iOS 7 wasn't working properly.</li>
+</br>
+
+<strong>3.3-1</strong>
+	<li>Bug fixes from 3.3.</li>
+	<li>Forum Icons/Avatars etc should not open in image viewer.</li>
+	<li>Started using extended build numbers to keep them lowish.</li>
+	<li>Code cleanup. </li>
+	<li>Mobile skin changes for better app support (Enabled for Platinum, VIP while in testing).</li>
+</br>
+
+<strong>3.3</strong>
+	<li>Utilities, respring, enter safemode, reboot, clear app cacke, clear app cookies and clear UICache.</li>
+	<li>Image viewer now works with Gallery. Downloading wallpapers and saving to insanelyi folder in the photos app.</li>
+	<li>Toggle 'Toast Messages' when swiping back and forward (Toggle under Utilities).</li>
+	<li>Toggle 'Pull to Refresh' (Toggle under Utilities).</li>
+	<li>Install .deb files directly from My Downloads beta feature (Not tested on iOS 7).</li>
+	<li>Respring button on successful deb install.</li>
+	<li>Cleaned up app draw.</li>
+	<li>No connection detection when launching, and in the main view.</li>
+	<li>New app animations (removed in newest version).</li>
+	<li>Other misc fixes.</li>
+</br>
+
+<strong>3.1</strong>
+	<li>Fixed annoying bug in the image view controller.</li>
+	<li>Misc bug fixes in downloader.</li>
+	<li>Full https support.</li>
+	<li>Fixed validation emails not being delivered.</li>
+</br>
+
+<strong>3.0</strong>
+	<li>Immense amount of code cleanup, merging, etc..!</li>
+	<li>iOS 7 and 8 compatibility.</li>
+	<li>Managed to get splash screens working properly for all devices. Simulator tested, don't hate me if it fails.</li>
+	<li>Moved icons and launch images into asset catalogs, (might disrupt icon theming i don't know yet).</li>
+	<li>More changed, just can't remember.</li>
+</br>
+
+<strong>2.9</strong>
+	<li>A lot of code stripping and cleanup.</li>
+	<li>Strictly iOS 7 now. iOS 8 might come later depending on the JB team.</li>
+	<li>Improved downloading screen.</li>
+	<li>Improved image view controller and function.</li>
+	<li>Removed pull to refresh from main view, but still active in shoutbox view to easily navigate back to the forum.</li>
+	<li>Status bar styling improvements.</li>
+	<li>More just can't remember :)</li>
+</br>
+
+<strong>2.8</strong>
+	<li>HUGE code clean up and app size reduction.</li>
+	<li>Still iOS 6 and 7 compatibility, along with iPad support.</li>
+	<li>Misc bug fixes.</li>
+	<li>Left menu color adjustments.</li>
+	<li>Hopefully icon issue has been solved for iOS 6 and 7.</li>
+</br>
+
+<strong>2.7</strong>
+	<li>iOS 6 and 7 compatibility.</li>
+	<li>Misc code cleanup.</li>
+</br>
+
+<strong>2.6</strong>
+	<li>iPad users will now be able to rotate their device, it IS still set to load in portrait, if you choose to load in landscape, the load image WILL look funky (this is normal, not really a fix needed, but will look into setting a landscape loading image again).</li>
+	<li>Changed the Shoutbox right view controller, so you have almost a full screen, instead of previously not really being able to use it.</li>
+	<li>Misc view controller/name changes.</li>
+	<li>Added a "Saving Image" overlay when tapping Save in the image view controller, (instead of not being notified if it's saving or not).</li>
+	<li>A lot of code cleanup and transitioning to being just iOS 6.</li>
+</br>
+
+<strong>2.5</strong>
+	<li>Strictly iOS 6 now.</li>
+	<li>Focused mainly on the "Pull to refresh". A lot quicker now. How it works: No matter where you are on the forum, pull to refresh will reload the current url you are on, as for the views that are expected to navigate away from the forum, home, new content etc, in the past if you go to a site that is not exactly mobile friendly and unable to use the back gesture, pull to refresh will navigate back to the forum (will not work if you are on store and a couple other views, as they are not meant to navigate). Ex. If you're on the home tab, go to said site, and refresh, it will take you back to the home view. So you can nav away on w/e site when you want to return, just pull. (hope I explained that well enough).</li>
+	<li>New styling also prevents accidental refresh when scrolling too fast.</li>
+	<li>Misc code cleanup and noticeable speed improvements.</li>
+</br>
+
+<strong>2.4</strong>
+	<li>Added a image view. Currently will NOT work with embedded images like gallery or in quotes or the <img> tags. Using the post uploader is ideal for viewing.</li>
+	<li>Added a save button in the view mentioned above, which will save the image to your camera roll.</li>
+	<li>Misc useless code cleanup.</li>
+</br>
+
+<strong>2.3</strong>
+	<li>Adjusted build number to show as a update from repo, (whenever it gets uploaded).</li>
+	<li>Adjusted some other settings to try and get 5.x support (really need feedback on compatibility).</li>
+	<li>More useless code cleanup and possible speed increase? (noticed it running faster on my 5).</li>
+</br>
+
+<strong>1.4</strong>
+	<li>UI changes in both left table and Downloads view.</li>
+	<li>Left table stays selected to show what view you're on (like facebook).</li>
+	<li>Misc code clean up.</li>
+</br>
+
+<strong>1.3</strong>
+	<li>Added a "open in" popup to the download folder, not sure about ios 5 compatibility, so i need feedback.</li>
+	<li>Added a status bar overlay to say "Finished downloading", so leaving the download view will continue to download. When switching to a completely different view, it will continue to download (so I've tested) but will have no activity indicator (looking into this, but not a huge issue).</li>
+	<li>Changed up the table cell style in downloads view.</li>
+	<li>Adjusted the pull to refresh so now it takes a little more dragging to activate it. Considering ditching it, but it can prove useful for a full refresh of the page. Don't like it? Don't use it :)</li>
+	<li>Added the Go Back gesture to the shoutbox, in case you click an external link.</li>
+	<li>Misc code clean up and bug fixes.</li>
+</br>
+
+<strong>1.2</strong>
+	<li>Implemented download manager (where download manager is needed). Can download files from most websites, including the forum post attachments.</li>
+	<li>Downloads view to see/delete files (further development intended to export to other applications).</li>
+	<li>Downloads get stored in var/mobile/Documents/insanelyi downloads.</li>
+	<li>Misc. bug fixes.</li>
+</br>
+
+<strong>1.1</strong>
+	<li>Misc. bug fixes.</li>
+</br>
+
+<strong>1.0</strong>
+	<li>Initial release.</li>
+
 </div>
 </fieldset>
-
 
 </panel>
 </body>
