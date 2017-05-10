@@ -178,7 +178,12 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 
-
+.img {
+    -webkit-backface-visibility: hidden; 
+    -ms-transform: translateZ(0); /* IE 9 */
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0);
+}
 
 
 
