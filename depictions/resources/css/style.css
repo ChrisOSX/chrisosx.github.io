@@ -159,13 +159,17 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 
 
 .strongTag{
-  color: #f2f2f2;
-  background-color: rgba(45, 45, 45, 0.5);
-  border-radius: 4px;
-  border: solid 1px #414141;
-  border-color: rgba(45, 45, 45, 0.5);
-  text-shadow: none;
-  padding: 0px 2px 0px 2px;
+    display: inline-block;
+    padding: 4px 7px 4px 7px;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+    text-shadow: none;
 }
 
 .compatibility {
