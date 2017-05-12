@@ -132,6 +132,11 @@ dialog>toolbar>a.forward-button {
 
 
 
+
+
+
+
+
 .alert {
 padding: 5px;
 color: #c09853;
@@ -206,6 +211,17 @@ div.scrollmenu {
     -webkit-overflow-scrolling: touch;
 }
 
+::-webkit-scrollbar {
+    -webkit-appearance: none;// you need to tweak this to make it available..
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
 
 
 
@@ -231,18 +247,6 @@ panel>block {
     margin-right: auto;
 	padding:0 10px;	
 }
-
-
-
-
-
-
-
-
-
-
-
-
 panel>fieldset>div>hr,panel>block>hr {
 	border-top:1px dashed #999999
 }
