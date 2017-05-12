@@ -184,6 +184,30 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     font-size: 1.4em;
 }
 
+.wrapper { 
+		background:#EFEFEF; 
+		box-shadow: 1px 1px 10px #999; 
+		margin: auto; 
+		text-align: center; 
+		position: relative;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		width: auto;
+}
+
+div.scrollmenu {
+    background-color: transparent;
+    overflow: auto;
+    white-space: nowrap;
+    width: auto;
+		display: inline-block;
+		
+}
+
+
+
+
 
 
 
