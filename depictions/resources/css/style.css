@@ -203,6 +203,7 @@ div.scrollmenu {
     white-space: nowrap;
     width: auto;
     display: inline-block;
+    -webkit-overflow-scrolling: touch;
 }
 
 
