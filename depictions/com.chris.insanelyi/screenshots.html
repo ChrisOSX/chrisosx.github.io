@@ -18,14 +18,16 @@
 </head>
 
 <body class="no-pinstripe">
-<script language="JavaScript" type="text/javascript">
-<!--
-if (location.search)
-{
-var image_filename = location.search.substring(1)
-document.write('<IMG SRC="' + image_filename + '">')
-}
-//-->
-</script>
+<panel>
+  <img src=image_filename width="60%"><br>
+  
+  <script language="JavaScript" type="text/javascript">
+	if (location.search) {
+		var image_filename = location.search.substring(1)
+		document.write('<IMG SRC="' + image_filename + '">')
+	}
+  </script>
+
+</panel>
 </body>
 </html>
