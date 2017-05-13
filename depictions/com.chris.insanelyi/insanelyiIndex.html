@@ -32,9 +32,7 @@
 <fieldset>
 <div class="wrapper">
 	<div class="scrollmenu">
-	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/1.png?raw=true" target="_blank" width="60%">
-  		<img src="./screenshots/1.png" width="60%" target="_new"/>&nbsp;
-	</a>
+	<img src="./screenshots/1.png" width="60%" onclick="view('pic_big.jpg')"/>&nbsp;
 	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/2.png?raw=true" target="_blank">
   		<img src="./screenshots/2.png" width="60%" target="_new"/>&nbsp;
 	</a>
@@ -53,6 +51,13 @@
 	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/7.png?raw=true" target="_blank">
   		<img src="./screenshots/7.png" width="60%" target="_new"/>
 	</a>
+	
+	<script type="text/javascript">
+   		function view(imgsrc) {
+      		viewwin = window.open(imgsrc,'viewwin', 'width=25%'); 
+   		}
+	</script>
+
 	</div>
 </div>
 
