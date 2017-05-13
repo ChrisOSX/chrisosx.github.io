@@ -15,19 +15,20 @@
 	<meta name="application-name" content="ChrisOSX Repo"/>
 	<meta name="msapplication-TileColor" content="#141414" />
 	<meta name="msapplication-TileImage" content="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/favicomatic/mstile-144x144.png?raw=true" />
+
+	    <script language="JavaScript" type="text/javascript">
+            if (location.search)
+            {
+                var image_filename = location.search.substring(1)
+                //document.write('<IMG SRC="' + image_filename + '">')
+                document.write('<IMG "STYLE="width:60%" SRC="' + image_filename + '">')
+            }
+        </script>
 </head>
 
 <body class="no-pinstripe">
 <panel>
   <img src=image_filename width="60%"><br>
-  
-  <script language="JavaScript" type="text/javascript">
-	if (location.search) {
-		var image_filename = location.search.substring(1)
-		document.write('<IMG SRC="' + image_filename + '">')
-	}
-  </script>
-
 </panel>
 </body>
 </html>
