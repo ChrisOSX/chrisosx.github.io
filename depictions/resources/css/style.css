@@ -190,33 +190,32 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 .wrapper { 
-		background:#EFEFEF; 
-		box-shadow: 1px 1px 10px #999; 
-		margin: auto; 
-		text-align: center; 
-		position: relative;
-		-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-		width: auto;
+	background:#EFEFEF; 
+	box-shadow: 1px 1px 10px #999; 
+	margin: auto; 
+	text-align: center; 
+	position: relative;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: auto;
 }
 
 div.scrollmenu {
     background-color: transparent;
     overflow: auto;
-    overflow-x: auto;
     white-space: nowrap;
-    width: auto;
+    width: 100%;
     display: inline-block;
     -webkit-overflow-scrolling: touch;
 }
 
-::-webkit-scrollbar {
+div.scrollmenu.-webkit-scrollbar {
     -webkit-appearance: none;
     width: 7px;
 }
 
-::-webkit-scrollbar-thumb {
+div.scrollmenu.-webkit-scrollbar-thumb {
     border-radius: 4px;
     background-color: rgba(0,0,0,.5);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
