@@ -209,7 +209,7 @@ div.scrollmenu {
 	overflow: scroll;
 	overflow-y:hidden;
 	overflow-x:scroll;
-	-webkit-overflow-scrolling: touch;
+	//-webkit-overflow-scrolling: touch;
 }
 
 .scrollmenu::-webkit-scrollbar {
@@ -395,6 +395,7 @@ panel>img {
 }
 panel>fieldset>div {
 	border-top:1px solid rgba(221, 221, 221, 0.8)
+	-webkit-overflow-scrolling: touch;
 }
 panel>fieldset>a {
 	border-top:1px solid rgba(221, 221, 221, 0.8)
