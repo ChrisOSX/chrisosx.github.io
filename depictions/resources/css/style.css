@@ -199,27 +199,27 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	width: auto;
-	overflow: auto;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
+	overflow: scroll;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 div.scrollmenu {
     background-color: transparent;
     white-space: nowrap;
-    width: 100%;
+    width: auto;
     display: inline-block;
 
 }
 
-div.scrollmenu.-webkit-scrollbar {
+::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 7px;
 }
 
-div.scrollmenu.-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     border-radius: 4px;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(45,45,45,.5);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
