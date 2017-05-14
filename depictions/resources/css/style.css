@@ -199,6 +199,7 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	width: auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 div.scrollmenu {
@@ -207,8 +208,8 @@ div.scrollmenu {
 	width: auto;
 	display: inline-block;
 	overflow: scroll;
-	overflow-y:hidden;
 	overflow-x:scroll;
+	overflow-y:hidden;
 	//-webkit-overflow-scrolling: touch;
 }
 
@@ -395,7 +396,6 @@ panel>img {
 }
 panel>fieldset>div {
 	border-top:1px solid rgba(221, 221, 221, 0.8)
-	-webkit-overflow-scrolling: touch;
 }
 panel>fieldset>a {
 	border-top:1px solid rgba(221, 221, 221, 0.8)
