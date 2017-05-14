@@ -54,7 +54,6 @@ body.white {
 }
 body.pinstripe {
 	background:transparent;
-	-webkit-overflow-scrolling: touch;
 }
 body.no-pinstripe {
     background:transparent;
