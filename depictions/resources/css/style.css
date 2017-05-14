@@ -214,18 +214,15 @@ div.scrollmenu {
 
 .scrollmenu::-webkit-scrollbar {
     -webkit-appearance: none;
-    background-color: #000;
 }
 .scrollmenu::-webkit-scrollbar:horizontal {
     height: 6px;
 }
 .scrollmenu::-webkit-scrollbar-thumb {
-    background-color: #000;
-		border-radius: 8px;
+	border-radius: 8px;
 }
 .scrollmenu::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: transparent;
 }
 
 
