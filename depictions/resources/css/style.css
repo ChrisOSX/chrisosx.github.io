@@ -209,9 +209,9 @@ div.scrollmenu {
   white-space: nowrap;
   width: auto;
   display: inline-block;
-  overflow: inherit;
+  overflow: auto;
   overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: auto;
 }
 
 .scrollmenu::-webkit-scrollbar {
