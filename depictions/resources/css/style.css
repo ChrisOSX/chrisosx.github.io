@@ -51,12 +51,15 @@ body {
 }
 body.white {
 	//background-color:transparent
+	background-color: #fff
 }
 body.pinstripe {
 	//background:transparent;
+	background: #c7ced5 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABCAIAAACdaSOZAAAAFElEQVQIHWM4euYKErp0+tINIAIAuHQQ4rDrv5YAAAAASUVORK5CYII=')
+
 }
 body.no-pinstripe {
-    //background:transparent;
+    background:transparent;
 }
 dialog {
 	display:block;
