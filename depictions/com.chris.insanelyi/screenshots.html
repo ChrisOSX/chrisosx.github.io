@@ -17,48 +17,18 @@
 	<meta name="msapplication-TileImage" content="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/favicomatic/mstile-144x144.png?raw=true" />
 
 	    <script language="JavaScript" type="text/javascript">
-
-            
-            //./screenshots/1.png
-            
-            
-            
-    var contentBlocks = 	{
-        "#screenshotsList"	: 
-			{"type":"custom"  
-				,"source" :"package>screenshots>screenshot"
-				,"render" : function(element,source){
-				console.log($(source).size());
-					if ($(source).size()==0) {
-						$(element).append( $("<div class='alert alert-danger'>The aren't any screenshots for this package</div>") ); 
-						return;
-					}
-					$.each(source, function(index,data) {
-						var th = $("<div class='thumbnail'>");
-						th.append($("<p>")
-							.text($(data).find('description').text())
-						)
-						th.append($("<img>")
-							.attr("src",bundleid+'/screenshots/*.png')
-						)
-						$(element).append(th);
-					});
-					
-				}
-			}
-	}
-	
+            if (location.search)
+            {
+                var image_filename = location.search.substring(1)
+                document.write('<IMG SRC="' + image_filename + '">')
+                //document.write('<IMG "STYLE="width:60%" SRC="' + image_filename + '">')
+            }
         </script>
 </head>
 
 <body class="no-pinstripe">
 <panel>
-  <img src="image_filename" width="60%"><br>
-  	<div class="container">
-		<h5>SCREENSHOT</h5>
-		<ul id="screenshotsList" class="list-group">
-		</ul>
-	</div>
+  
 </panel>
 </body>
 </html>
