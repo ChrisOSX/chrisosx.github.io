@@ -212,22 +212,22 @@ div.scrollmenu {
 	overflow: scroll;
 	overflow-x:scroll;
 	overflow-y:hidden;
-	-webkit-overflow-scrolling: touch !important;
+	-webkit-overflow-scrolling: touch;
 }
 
 .scrollmenu::-webkit-scrollbar {
-    -webkit-appearance: none !important;
+    -webkit-appearance: none;
 }
 .scrollmenu::-webkit-scrollbar:horizontal {
-    height: 6px !important;
+    height: 6px;
 }
 .scrollmenu::-webkit-scrollbar-thumb {
-	border-radius: 6px !important;
-    background-color: rgba(45, 45, 45, .6) !important;
+	border-radius: 6px;
+    background-color: rgba(45, 45, 45, .6);
 }
 .scrollmenu::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
-    border-radius: 6px !important;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 6px;
 }
 
 
