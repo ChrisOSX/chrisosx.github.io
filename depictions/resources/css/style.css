@@ -219,7 +219,7 @@ div.scrollmenu {
     -webkit-appearance: none;
 }
 .scrollmenu::-webkit-scrollbar:horizontal {
-    height: 8px;
+    height: 6px;
 }
 .scrollmenu::-webkit-scrollbar-thumb {
 	border-radius: 6px;
