@@ -205,14 +205,13 @@ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 div.scrollmenu {
-	background-color: transparent;
-	white-space: nowrap;
-	width: auto;
-	display: inline-block;
-	overflow: scroll;
-	overflow-x:scroll;
-	overflow-y:hidden;
-	//-webkit-overflow-scrolling: touch;
+  background-color: transparent;
+  white-space: nowrap;
+  width: auto;
+  display: inline-block;
+  overflow: inherit;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .scrollmenu::-webkit-scrollbar {
