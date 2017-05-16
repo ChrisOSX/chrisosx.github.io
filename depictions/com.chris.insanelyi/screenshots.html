@@ -17,16 +17,18 @@
 	<meta name="msapplication-TileImage" content="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/favicomatic/mstile-144x144.png?raw=true" />
 </head>
 
-<body class="no-pinstripe">
-<panel>
-        <!--This is where is needs to be loaded up -->
-      <img src="" width="60%">
 	<script>
         window.onload=function(){
  			$('img').attr('src',decodeURIComponent(window.location.hash).replace('#',"").trim())
         }
-
 	</script>
+	
+<body class="no-pinstripe">
+<panel>
+        <!--This is where is needs to be loaded up -->
+      
+
+	<img src="" width="60%">
 </panel>
 </body>
 </html>
