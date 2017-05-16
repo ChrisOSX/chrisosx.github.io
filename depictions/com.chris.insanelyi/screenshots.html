@@ -20,7 +20,7 @@
             if (location.search)
             {
                 var image_filename = location.search.substring(1)
-                document.write('<IMG SRC="' + image_filename + '">')
+                document.write('<IMG SRC="./screenshots/' + image_filename + '">')
                 //document.write('<IMG "STYLE="width:60%" SRC="' + image_filename + '">')
             }
         </script>
@@ -28,7 +28,7 @@
 
 <body class="no-pinstripe">
 <panel>
-  <img src="./screenshots/*.png" width="100%">
+  <img src="./screenshots/*.png" width="60%">
 </panel>
 </body>
 </html>
