@@ -15,6 +15,12 @@
 	<meta name="application-name" content="ChrisOSX Repo"/>
 	<meta name="msapplication-TileColor" content="#141414" />
 	<meta name="msapplication-TileImage" content="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/favicomatic/mstile-144x144.png?raw=true" />
+
+	<script>
+        window.onload=function(){
+ 			$('img').attr('src',decodeURIComponent(window.location.hash).replace('#',"").trim())
+        }
+	</script>
 </head>
 	
 <body class="no-pinstripe">
@@ -23,11 +29,7 @@
 
 	<img src="" width="60%" />
 	
-	<script>
-        window.onload=function(){
- 			$('img').attr('src',decodeURIComponent(window.location.hash).replace('#',"").trim())
-        }
-	</script>
+
 </panel>
 </body>
 </html>
