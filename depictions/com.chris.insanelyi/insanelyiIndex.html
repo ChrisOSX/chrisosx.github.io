@@ -31,29 +31,22 @@
 <fieldset>
 <div class="wrapper">
   <div class="scrollmenu">
-	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/1.png?raw=true" target="_blank">
-  		<img src="./screenshots/1.png" width="60%" target="_new"/>&nbsp;
-	</a>
-	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/2.png?raw=true" target="_blank">
-  		<img src="./screenshots/2.png" width="60%" target="_new"/>&nbsp;
-	</a>
-	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/3.png?raw=true" target="_blank">
-  		<img src="./screenshots/3.png" width="60%" target="_new"/>&nbsp;
-	</a>
-	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/4.png?raw=true" target="_blank">
-  		<img src="./screenshots/4.png" width="60%" target="_new"/>&nbsp;
-	</a>
-	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/5.png?raw=true" target="_blank">
-  		<img src="./screenshots/5.png" width="60%" target="_new"/>&nbsp;
-	</a>
-	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/6.png?raw=true" target="_blank">
-  		<img src="./screenshots/6.png" width="60%" target="_new"/>&nbsp;
-	</a>
-	<a href="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/com.chris.insanelyi/screenshots/7.png?raw=true" target="_blank">
-  		<img src="./screenshots/7.png" width="60%" target="_new"/>
-	</a>
+    <a>
+      <img src="./screenshots/1.png" width="60%" target="_new" />&nbsp;
+    </a>
+    <a>
+      <img src="./screenshots/2.png" width="60%" target="_new" />&nbsp;
+    </a>
+    <a>
+      <img src="./screenshots/3.png" width="60%" target="_new" />&nbsp;
+    </a>
   </div>
 </div>
+<script>
+  $('.scrollmenu a').click(function() {
+    window.location.href = "./screenshots.html#" + encodeURI($(this).children('img').attr('src'))
+  })
+</script>
 </fieldset>
 
 
