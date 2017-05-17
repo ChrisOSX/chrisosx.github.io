@@ -21,10 +21,12 @@
     <panel>
 
       <!--This is where is needs to be loaded up -->
-	<img src="" width="60%">
+	<img src="" id="image" width="60%">
+	
 	<script>
 		window.onload=function(){
-			$('img').attr('src',decodeURIComponent(window.location.hash).replace(/#|\.\//g,"").trim())
+			$('img').attr('src',decodeURIComponent(uri_enc).replace(/#|\.\//g,"").trim())
+			document.getElementById("image").innerHTML;
         }
 
 	</script>
