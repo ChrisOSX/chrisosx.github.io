@@ -25,7 +25,7 @@
 	
 	<script>
 		window.onload=function(){
-			$('img').attr('src',decodeURIComponent(window.location.hash).replace(/[&\/\\#,+()$~%.'":*?<>{}]/g,'').trim())
+			$('img').attr('src',decodeURIComponent(window.location.hash).replace('#',"").trim())
         }
 
 	</script>
