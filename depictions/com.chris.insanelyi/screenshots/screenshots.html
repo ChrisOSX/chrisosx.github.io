@@ -23,14 +23,9 @@
       <!--This is where is needs to be loaded up -->
 	<img src="" width="60%">
 	<script>
-
-        
-        function getParameterByName(name) {
-    		name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-    		var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-        	results = regex.exec(location.search);
-    		return results === null ? "" : decodeURIComponent(results[1].replace(/#\+/g, ""));
-}
+		window.onload=function(){
+			$('img').attr('src',decodeURIComponent(window.location.hash).replace(/#|\.\//g,"").trim())
+        }
 
 	</script>
       
