@@ -25,7 +25,7 @@
 	
 	<script>
 		window.onload=function(){
-			$('img').attr('src',console.log(decodeURIComponent(window.location.hash).replace‌​(/#|\.\//g,"").trim(‌​))
+			$('img').attr('src',decodeURIComponent(window.location.hash).replace('/#|\.\/'g,"").trim())
         }
 
 	</script>
@@ -33,3 +33,4 @@
     </panel>
 </body>
 </html>
+\u820
