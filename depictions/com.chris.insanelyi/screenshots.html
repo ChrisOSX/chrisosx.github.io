@@ -23,13 +23,14 @@
       <!--This is where is needs to be loaded up -->
 	<img src="" width="60%">
 	
-	   <script>
-        window.onload=function(){
- 		 	var x = sessionStorage.getItem("imgurl");
-			$('img').attr('src',x);
-        }
-
-      </script>
+	<script>
+		window.onload = function() {
+ 			var picture = sessionStorage.getItem('imgurl');
+ 			var image = document.createElement('img');
+ 			image.src = picture;
+ 			document.body.appendChild(image);
+		};
+	</script>
       
     </panel>
 </body>
