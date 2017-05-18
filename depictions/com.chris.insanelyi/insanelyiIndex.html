@@ -32,7 +32,7 @@
 <div class="wrapper">
   <div class="scrollmenu">
  	<a href="screenshots.html" target="_blank">
-		<img src="./screenshots/1.png" width="60%" id="screenshot" />&nbsp;
+		<img src="./screenshots/1.png" width="60%" id="screenshot" onClick="click(this.id)"/>&nbsp;
     </a>
  	<a href="screenshots.html" target="_blank">
 		<img src="./screenshots/2.png" width="60%" id="screenshot" />&nbsp;
@@ -54,10 +54,10 @@
     </a>
   </div>
 </div>
-<script>
-	$('.scrollmenu img').click(function() {
-		encodeURIComponent($(this).children('img').attr('src'))
-	})
+<script type="text/javascript">
+	function click(clicked_id) {
+    	alert(clicked_id);
+	}
 </script>
 </fieldset>
 
