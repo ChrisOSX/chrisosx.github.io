@@ -31,32 +31,32 @@
 <fieldset>
 <div class="wrapper">
   <div class="scrollmenu">
- 	<a href="screenshots.html">
+ 	<a href="screenshots.html" target="_blank">
 		<img src="./screenshots/1.png" width="60%" id="screenshot" />&nbsp;
     </a>
- 	<a href="screenshots.html">
+ 	<a href="screenshots.html" target="_blank">
 		<img src="./screenshots/2.png" width="60%" id="screenshot" />&nbsp;
     </a>
- 	<a href="screenshots.html">
+ 	<a href="screenshots.html" target="_blank">
 		<img src="./screenshots/3.png" width="60%" id="screenshot" />&nbsp;
 	</a>
-	<a href="screenshots.html">
+	<a href="screenshots.html" target="_blank">
 		<img src="./screenshots/4.png" width="60%" id="screenshot" />&nbsp;
     </a>
- 	<a href="screenshots.html">
+ 	<a href="screenshots.html" target="_blank">
 		<img src="./screenshots/5.png" width="60%" id="screenshot" />&nbsp;
     </a>
- 	<a href="screenshots.html">
+ 	<a href="screenshots.html" target="_blank">
 		<img src="./screenshots/6.png" width="60%" id="screenshot" />&nbsp;
 	</a>
-	<a href="screenshots.html">
+	<a href="screenshots.html" target="_blank">
 		<img src="./screenshots/7.png" width="60%" id="screenshot" />&nbsp;
     </a>
   </div>
 </div>
 <script>
-	$('.scrollmenu a').click(function() {
-		window.open("screenshots.html#" + encodeURIComponent($(this).children('img').attr('src')))
+	$('.scrollmenu img').click(function() {
+		window.open(encodeURIComponent($(this).children('img').attr('src')))
 	})
 </script>
 </fieldset>
