@@ -25,12 +25,12 @@
 	
 	<script>
 		window.onload = function() {
- 			var picture = sessionStorage.getItem('imgurl');
+ 			var picture = decodeURIComponent(window.location.hash).replace(/#|\.\//g,"").trim();
  			var image = document.createElement('img');
  			image.src = picture;
- 			document.body.appendChild(image);
 		};
 	</script>
+
       
     </panel>
 </body>
