@@ -25,9 +25,8 @@
 	
 	<script>
 		window.onload = function() {
- 			var picture = $('img').attr('src',decodeURIComponent(uri_enc));
- 			var image = document.createElement('img');
- 			image.src = picture;
+ 			var x = sessionStorage.getItem("imgurl");
+ 			$('img').attr('src', x);
 		};
 	</script>
 
