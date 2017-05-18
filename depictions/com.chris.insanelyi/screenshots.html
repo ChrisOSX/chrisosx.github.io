@@ -24,9 +24,10 @@
 	<img src="" width="60%">
 	
 	<script>
-		window.onload=function(){
-			$('img').attr('src',decodeURIComponent(window.location.hash).replace(/#|\.\//g,"").trim())
-        }
+		alert(this.id);
+		var x = sessionStorage.getItem("imgurl");
+		$('.scrollmenu img').attr('src',x);
+
 
 	</script>
       
