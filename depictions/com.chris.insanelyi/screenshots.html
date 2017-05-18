@@ -24,8 +24,12 @@
 	<img src="" width="60%">
 	
 	<script>
-		var x = sessionStorage.getItem("imgurl");
-		$('img').attr('src',x);
+		
+		
+		window.onload=function(){
+ 			var x = sessionStorage.getItem("imgurl");
+			$('img').attr('src',x);
+        }
 
 	</script>
       
