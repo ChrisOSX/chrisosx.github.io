@@ -15,6 +15,14 @@
 	<meta name="application-name" content="ChrisOSX Repo"/>
 	<meta name="msapplication-TileColor" content="#141414" />
 	<meta name="msapplication-TileImage" content="https://github.com/ChrisOSX/chrisosx.github.io/blob/master/depictions/resources/images/favicomatic/mstile-144x144.png?raw=true" />
+
+	<script>
+		window.onload = function() {
+ 			var x = sessionStorage.getItem("imgurl");
+ 			$('img').attr('src', x);
+		};
+	</script>
+
 </head>
 	
 <body class="no-pinstripe">
@@ -23,12 +31,7 @@
       <!--This is where is needs to be loaded up -->
 	<img src="" width="60%">
 	
-	<script>
-		window.onload = function() {
- 			var x = sessionStorage.getItem("imgurl");
- 			$('img').attr('src', x);
-		};
-	</script>
+
 
       
     </panel>
