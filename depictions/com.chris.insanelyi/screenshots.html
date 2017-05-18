@@ -25,7 +25,7 @@
 	
 	<script>
 		window.onload = function() {
- 			var picture = decodeURIComponent(window.location.hash).replace(/#|\.\//g,"").trim();
+ 			var picture = $('img').attr('src',decodeURIComponent(uri_enc));
  			var image = document.createElement('img');
  			image.src = picture;
 		};
