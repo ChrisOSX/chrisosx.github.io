@@ -55,17 +55,12 @@
   </div>
 </div>
 <script>
-	$('.scrollmenu img').click(function() {
-     	var img = $('img').attr('src')
+	$('.scrollmenu a').click(function() {
+     	var img = $(this).children('img').attr('src')
  		sessionStorage.setItem("imgurl", img);
 	});
 </script>
 
-<script>
-  $('.scrollmenu a').click(function() {
-    window.open("screenshots.html#" + encodeURIComponent($(this).children('img').attr('src')))
-  })
-</script>
 </fieldset>
 
 
