@@ -1,23 +1,3 @@
-Package: com.chris.insanelyi
-Name: insanelyi Forum App
-Version: 3.4.1
-Section: Site-Specific Apps
-Replaces: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.chris.insanelyi, com.sull.insanelyiappios7, com.sull.insanelyiappios8, com.sull.insanelyiappios9
-Depends: firmware (>= 8.0)
-Conflicts: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.chris.insanelyi, com.sull.insanelyiappios7, com.sull.insanelyiappios8, com.sull.insanelyiappios9
-Architecture: iphoneos-arm
-Filename: debs//apps/com.chris.insanelyi.deb
-Size: 4139998
-MD5sum: e5023de210126c9e08ba04021e622697
-SHA1: 4c5109ca225d74bca608c2669808ff88f66d981c
-SHA256: e6795ea14a67bcd25aad8d076cd3ffed5ed93e0874d8854cf2b94b81d062749c
-Description: Amazing forum app with iOS 8/9/10 Support!
-Author: ChrisOSX <chrisosx.repo@gmail.com>
-Sponsor: ChrisOSX <https://chrisosx.github.io/>
-Maintainer: ChrisOSX <chrisosx.repo@gmail.com>
-Depiction: https://chrisosx.github.io/depictions/com.chris.insanelyi/insanelyiIndex.html
-Icon: file:///Applications/insanelyi.app/AppIcon-Cydia.png
-
 Package: com.chris.matteterm
 Name: MatteTerm
 Version: 1.0beta1.4.1
@@ -41,13 +21,13 @@ Package: com.chris.TDA
 Name: TDA Forum App
 Version: 1.0
 Section: Site-Specific Apps
-Depends: firmware (>= 8.0)
+Depends: unzip, firmware (>= 8.0)
 Architecture: iphoneos-arm
 Filename: debs//apps/com.chris.TDA.deb
-Size: 1492336
-MD5sum: c92a54f9f6e80d3a6d54e831844d5118
-SHA1: c23bb85d5718fa85a9af73d684a695d536082782
-SHA256: b15904ea9d534f149fa56debfa1fc2de890cd7d022c23eb500386bef575c536c
+Size: 6444558
+MD5sum: 8242e12474a3ac1dacd5f2025de6015e
+SHA1: 92066d109c7ae042497e0612fbb3ea72539cf797
+SHA256: 97cb964abd748d81368543ea152851c5e3afb7bb2a2870eddadb6a859add3514
 Description: Amazing forum app with iOS 8/9/10 Support!
 Author: ChrisOSX <chrisosx.repo@gmail.com>
 Sponsor: ChrisOSX <https://chrisosx.github.io/>
