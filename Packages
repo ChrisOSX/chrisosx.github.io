@@ -19,12 +19,12 @@ Icon: file:///Applications/MatteTerm.app/MatteIcon.png
 
 Package: com.chris.TDA
 Name: TDA Forum App
-Version: 1.1
+Version: 1.2
 Section: Site-Specific Apps
 Depends: unzip, firmware (>= 8.0)
 Architecture: iphoneos-arm
 Filename: debs//apps/com.chris.TDA.deb
-Size: 6454848
+Size: 5561084
 MD5sum: 4d017166353b81a5bf6f2e48a0755097
 SHA1: 07230299cba5be65532454a7f3440214e3c19d38
 SHA256: 2e7b81ec1645022dbf7a1e5035cd5066b9ad03bf1698249a522d81d9f856e31c
