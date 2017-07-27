@@ -25,9 +25,9 @@ Depends: unzip, firmware (>= 8.0)
 Architecture: iphoneos-arm
 Filename: debs//apps/com.chris.TDA.deb
 Size: 5561084
-MD5sum: 4d017166353b81a5bf6f2e48a0755097
-SHA1: 07230299cba5be65532454a7f3440214e3c19d38
-SHA256: 2e7b81ec1645022dbf7a1e5035cd5066b9ad03bf1698249a522d81d9f856e31c
+MD5sum: 660a9a5bd01faa0551f1b6b1ca703616
+SHA1: ffd7a5debe54975bd4bee1a4e423737d9d661e45
+SHA256: 8c1a786fc2478cfd7d9621a378d71645e6f61349b52738953c6bfb20a0659cb4
 Description: Amazing forum app with iOS 8/9/10 Support!
 Author: ChrisOSX <chrisosx.repo@gmail.com>
 Sponsor: ChrisOSX <https://chrisosx.github.io/>
